@@ -1,0 +1,15 @@
+/* Elementor Preview Styles */
+.elementor-editor-active .service-box {
+    cursor: pointer;
+}
+
+.elementor-editor-active .before-after-wrapper {
+    min-height: 200px;
+    background: #f5f5f5;
+    border: 2px dashed #ddd;
+}
+
+.elementor-editor-active .overlay {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.3) !important;
+}

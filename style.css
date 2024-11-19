@@ -1,0 +1,19 @@
+/*
+Theme Name: Black to White
+Theme URI: https://blacktowhite-frankfurt.de
+Author: Black to White Team
+Description: Professionelles WordPress-Theme für Reinigungsdienstleistungen. Das Theme bietet ein modernes und elegantes Design in Schwarz und Weiß, mit einer benutzerfreundlichen und responsiven Oberfläche.
+Version: 1.0
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: black-to-white
+Tags: custom-logo, custom-menu, featured-images, translation-ready
+
+Black to White WordPress Theme, (C) 2024 Black to White Team
+*/
+
+/* Import stylesheets */
+@import 'assets/css/tailwind.min.css';

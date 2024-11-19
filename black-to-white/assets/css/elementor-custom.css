@@ -1,0 +1,88 @@
+/* Elementor Custom Styles */
+
+/* Service Box Widget */
+.service-box {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+    color: #ffffff;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+}
+
+.service-box-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-box-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.service-box-description {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Before/After Widget */
+.before-after-container {
+    margin-bottom: 2rem;
+}
+
+.before-after-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.before-after-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.before-image,
+.after-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.before-image img,
+.after-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.before-image:hover .overlay,
+.after-image:hover .overlay {
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .before-after-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
